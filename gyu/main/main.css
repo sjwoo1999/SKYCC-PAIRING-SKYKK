@@ -1,0 +1,171 @@
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/background3.jpg.png);
+  /* background-color: #333; */
+  
+}
+
+body {
+  height: 98%;
+  width: 300px;
+  border: 2px solid #333;
+  border-radius: 4%;
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  /* background-color:  #8D6E63; */
+  background-image: url(./images/background2.jpg.png);
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+/* HEADER */
+header{
+  display: flex;
+  justify-content: center;
+}
+
+header .title{
+  border: 2px solid  #333;
+  width: 98%;
+
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* SECTION */
+section{
+  position: relative;
+}
+
+section .count{
+  text-align: center;
+
+}
+
+section .trees{
+  border: 2px solid #333;
+  height: 370px;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+  top: 1.5em;
+  background-image: url(./images/tree8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* 퍼즐로 구현했을 때의 코드 */
+section .trees .tree{
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  /* background-image: url(./images/tree4.png); */
+  transition: .3s;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  border-radius: 4%;
+}
+
+section .trees .tree:nth-child(1){
+  opacity: 0.8;
+  transition: .3s;
+}
+section .trees .tree:nth-child(2){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(3){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(4){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(5){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(6){
+  opacity: 0.9;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(7){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(8){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(9){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+section .trees .tree:nth-child(10){
+  opacity: 0.8;
+  transition: .3s;
+
+}
+
+
+/* 나무를 개수로 표현 했을 때의 css */
+/* section .trees .tree{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #333;
+  margin: 5px;
+  background-image: url(./images/tree2.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+} */
+
+
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  
+}
+
+footer .tail{
+  text-align: center;
+  border: 1px solid #333;
+  width: 100%;
+
+}
+footer a{
+  display: block;
+  text-decoration: none;
+  color: #8D6E63;
+  font-weight: 700;
+  background-color: greenyellow;
+  opacity: 0.5;
+}
+button{
+  position: fixed;
+  bottom:15px;
+  left: 30px;
+  font-size: 2em;
+  background-color: #8D6E63;
+}
+
